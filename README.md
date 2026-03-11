@@ -1,9 +1,14 @@
-# interface-feel-polish
+# skills
 
-UI polish skill for [skills.sh](https://skills.sh/). It improves the small interface details that make a frontend feel more polished, readable, and responsive without redesigning it from scratch.
+Collection of reusable skills for [skills.sh](https://skills.sh/).
 
-## What It Covers
+## Available Skills
 
+### `interface-feel-polish`
+
+Improves the small interface details that make a frontend feel more polished, readable, and responsive without redesigning it from scratch.
+
+Covers:
 - balanced text wrapping for short headings
 - concentric border radius for nested surfaces
 - contextual icon animation
@@ -26,10 +31,10 @@ skills/
         └── interface-details.md
 ```
 
-## Install
+## Install A Skill
 
 ```bash
-npx skills add https://github.com/Popwers/interface-feel-polish --skill interface-feel-polish
+npx skills add https://github.com/Popwers/skills --skill interface-feel-polish
 ```
 
 ## Usage Examples
@@ -41,4 +46,4 @@ npx skills add https://github.com/Popwers/interface-feel-polish --skill interfac
 
 ## Notes
 
-The source heuristics are based on the article "Details that Make Interfaces Feel Better" by Jakub Antolak and are translated into practical frontend guidance for audits and implementation work.
+The `interface-feel-polish` heuristics are based on the article "Details that Make Interfaces Feel Better" by Jakub Antolak and are translated into practical frontend guidance for audits and implementation work.
